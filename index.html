@@ -17,17 +17,27 @@
       margin: auto;
     }
 
-    header {
-        background-color: #666;
-        padding: 30px;
-        font-family: Calibri;
-        color: white;
+    .header {
+      background-color: #666;
+      padding: 30px;
+      font-family: Calibri;
+      color: white;
+      float: left;
+      width: 1000px;
+      height: 224px;
     }
 
-    section {
+    .image {
+      float: right;
+      padding: 10px;
+      background-color: #666;
+      width: 200px;
+    }
+
+    /*section {
       padding: 10px;
       font-family: Calibri;
-    }
+    }*/
 
     /*nav {
       float: left;
@@ -73,15 +83,23 @@
   </head>
   <body class="container">
     <div class="child">
-      <header>
-        <h1>Kate Furtney</h1>
-        <p>312-200 Sandringham Cres, London, ON, N6C 5B6   |   519-328-5952    |   <a href="mailto:katefurtney@gmail.com">katefurtney@gmail.com</a></p>
-      </header>
-  
-     
-      <section>
-        <p>Reliable Individual with proven problem solving and teamwork skills developed through team projects and work experience. Skilled at collaborating and coordinating with individuals and teams. Experienced at extracting and analyzing data, primarily using Excel.</p>
-        <!--<nav>
+
+      <div class="header">
+        <header>
+          <h1>Kate Furtney</h1>
+          <p>312-200 Sandringham Cres, London, ON, N6C 5B6   |   519-328-5952    |   <a href="mailto:katefurtney@gmail.com">katefurtney@gmail.com</a></p>
+          <p>Reliable Individual with proven problem solving and teamwork skills developed through team projects and work experience. Skilled at collaborating and coordinating with individuals and teams. Experienced at extracting and analyzing data, primarily using Excel.</p>
+        </header>
+      </div>
+      
+      <div class="image">
+        <image>
+          <img src="/photos/Headshot_Feb_2021.jpg" alt="Kate Furtney" style="width:auto;height:200px;">
+        </image>
+      </div>
+
+      <!--<section>
+        <nav>
           <ul>
             <li><a href="#">Education and Achievements</a></li>
             <li><a href="#">Computer Skills</a></li>
@@ -89,8 +107,8 @@
             <li><a href="#">Projects</a></li>
             <li><a href="#">References</a></li>
           </ul>
-        </nav>-->
-      </section>
+        </nav>
+      </section>-->
   
       <article>
       <h2>Education and Achievements</h2>
