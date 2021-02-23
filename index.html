@@ -20,16 +20,18 @@
     header {
       display: flex;
       background-color: #777;
-      padding: 30px;
+      padding:30px;
       font-family: Calibri;
       color: white;
     }
 
     header .header__content {
-      padding: 10px;
+      padding: 20px;
+      text-align: justify;
     }
 
     header .header__image {
+      flex-grow: 1;
       text-align: right;
       vertical-align: middle;
     }
@@ -37,12 +39,16 @@
     @media screen and (max-width:750px) {
       header {
         flex-wrap: wrap-reverse;
-        img {display:block;margin:0; auto;}
+        padding: 10px;
+      }
+      header .header__image {
+        text-align: center;
+      }
     }
 
     article {
-      padding: 10px;
-      background-color: rgb(247, 181, 192);
+      padding: 20px;
+      background-color: white;
       font-family: Calibri;
     }
 
@@ -63,10 +69,10 @@
         <div class="header__content">
           <h1>Kate Furtney</h1>
           <p>312-200 Sandringham Cres, London, ON, N6C 5B6   |   519-328-5952    |   <a href="mailto:katefurtney@gmail.com">katefurtney@gmail.com</a></p>
-          <p>Reliable Individual with proven problem solving and teamwork skills developed through team projects and work experience. Skilled at collaborating and coordinating with individuals and teams. Experienced at extracting and analyzing data, primarily using Excel.</p>
+          <p>Reliable individual with proven problem solving and teamwork skills developed through team projects and work experience. Skilled at collaborating and coordinating with individuals and teams. Experienced at extracting and analyzing data, primarily using Excel.</p>
         </div>
         <div class="header__image">
-          <img src="./photos/Headshot_Feb_2021.jpg" alt="Kate Furtney" class="center" style="width:auto;max-height:200px;">
+          <img src="./photos/Headshot_Feb_2021.jpg" alt="Kate Furtney" style="width:auto;max-height:220px;">
         </div>
       </header>
   
